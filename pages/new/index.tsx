@@ -6,7 +6,7 @@ const NewPage: NextPage = () => {
     <>
       <div>新規作成</div>
       <Link href="/">
-        <a>戻る</a>
+        <button>戻る</button>
       </Link>
     </>
   );
