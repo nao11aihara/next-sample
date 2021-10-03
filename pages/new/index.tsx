@@ -1,15 +1,19 @@
 import type { NextPage } from "next";
+import Head from "next/head";
 import Link from "next/link";
 
-const NewPage: NextPage = () => {
+const ArticleNewPage: NextPage = () => {
   return (
     <>
-      <div>新規作成</div>
+      <Head>
+        <title>記事新規作成</title>
+      </Head>
+      <div>記事新規作成</div>
       <Link href="/">
-        <button>戻る</button>
+        <button>トップへ</button>
       </Link>
     </>
   );
 };
 
-export default NewPage;
+export default ArticleNewPage;
