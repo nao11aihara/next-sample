@@ -1,7 +1,7 @@
 import type { NextPage } from "next";
 import Head from "next/head";
 import Link from "next/link";
-import { Header } from "src/components/Header";
+import { Header } from "src/components/common/Header";
 
 /**
  * 記事新規作成
