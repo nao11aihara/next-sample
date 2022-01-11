@@ -12,7 +12,7 @@ const TopPage: NextPage = () => {
       <Head>
         <title>トップ</title>
       </Head>
-      <Header></Header>
+      <Header />
       <div>トップ</div>
       <Link href="/new">
         <button>新規作成画面へ</button>
